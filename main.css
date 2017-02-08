@@ -1,0 +1,116 @@
+/*dropdown button stylings*/
+.dropbtn {
+    background-color: palegreen;
+    color: white;
+    padding: 16px;
+    font-family: arial;
+    font-weight: 800;
+    letter-spacing: .05em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 50;
+    right: 50;
+    border-radius: 8px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: lime;
+    font-size: 20px;
+    transform: translate3d(16px);
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+    transition: all 250ms ease-in-out;
+    border: none;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 111;
+    right: 50;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+    transition: all 250ms ease-in-out;
+    border-radius: 8px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: whitesmoke}
+
+.show {display:block;}
+
+/*image styling */
+#blogImgs {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+/*main button styling*/
+#js-button-wrap {
+  position: absolute;
+  top: 84%;
+  right: 43.25%;
+  margin: 64px auto;
+  width: 245px;
+  border-radius: 8px;
+  background: palegreen;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#js-button {
+  padding: 16px;
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-weight: 800;
+  letter-spacing: .05em;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 250ms ease-in-out;
+  box-sizing: border-box;
+}
+
+#js-button:hover {
+  background: lime;
+  font-size: 20px;
+  transform: translate3d(16px);
+  text-align: center;
+  box-sizing: border-box;
+}
