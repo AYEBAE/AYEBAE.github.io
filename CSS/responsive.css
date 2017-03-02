@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) {
+
+  #blogImgs {
+    max-width: 53%;
+  }
+
+  #js-button-wrap {
+    margin: 125% auto;
+  }
+}
+
+@media screen and (min-width: 660px) {
+
+  #js-button-wrap {
+    margin: 46.5% auto;
+  }
+
+  .dropbtn {
+    top: 30px;
+    right: 30px
+  }
+
+  .dropdown-content {
+    top: 90px;
+    right: 30px;
+  }
+}  
+
+                          /* at this point site adjusts to what I want for the desktop version, ie 660px+... */

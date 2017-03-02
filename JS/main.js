@@ -63,9 +63,7 @@ function myFunction() {
 // color array for changing ASCII text color
 var colorArray = [
   "mediumpurple",
-  "mediumslateblue",
   "white",
-  "black",
 ];
 
 var i = 0;
