@@ -13,6 +13,11 @@
   #js-button-wrap {
     /*margin: 843px auto;*/
     margin: 475px auto;
+    max-width: 245;
+  }
+
+  #js-button {
+    padding: 16px;
   }
 }
 
@@ -31,6 +36,11 @@
 
   #js-button-wrap {
     margin: 875px auto;
+    max-width: 245px;
+  }
+
+  #js-button {
+    padding: 16px;
   }
 
   #blogImgs {
