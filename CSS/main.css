@@ -52,8 +52,9 @@ nav a.selected, nav a:hover {
   transition: all 125ms ease-in-out
 }
 
-form {
-bottom: 50px;
+body {
+  white-space: nowrap;
+  max-width: 99%;
 }
 
 

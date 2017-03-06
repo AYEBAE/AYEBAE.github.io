@@ -1,5 +1,10 @@
 @media screen and (min-width: 480px) {
 
+  body {
+    white-space: nowrap;
+    max-width: 99%;
+  }
+
   #wrapper {
     white-space: nowrap;
     max-width: 99%;
@@ -7,12 +12,12 @@
 
   #blogImgs {
     max-width: 50%;
-    margin: 0 auto;
+    margin: -5% auto;
   }
 
   #js-button-wrap {
     /*margin: 843px auto;*/
-    margin: 475px auto;
+    margin: 400px auto;
     max-width: 245;
   }
 
@@ -25,7 +30,7 @@
 
 @media screen and (min-width: 660px) {
 
-  #wrapper {
+  body {
     white-space: nowrap;
     max-width: 99%;
   }
