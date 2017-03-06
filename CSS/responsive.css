@@ -16,7 +16,6 @@
   }
 
   #js-button-wrap {
-    /*margin: 843px auto;*/
     margin: 400px auto;
     max-width: 245;
   }
@@ -52,16 +51,7 @@
     margin: 0 auto;
   }
 
-  /*.dropbtn {
-    top: 30px;
-    right: 30px
-  }
 
-  .dropdown-content {
-    top: 90px;
-    right: 30px;
-  }
-}*/
 
   /*dropdown button stylings*/
   .dropbtn {

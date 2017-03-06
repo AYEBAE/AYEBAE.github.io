@@ -1,13 +1,3 @@
-/**********************************
-wrapper
-***********************************/
-
-#wrapper {
-  white-space: nowrap;
-  max-width: 99%;
-}
-
-
 
 /**********************************
 NAV
@@ -58,6 +48,7 @@ body {
 }
 
 
+
 /*dropdown button stylings*/
 .dropbtn {
   display: none;
@@ -91,9 +82,6 @@ body {
   margin: 313px auto;
   display: block;
   text-align: center;
-  /*white-space: normal;*/
-  /*vertical-align: bottom;*/
-  /*margin: 0 auto;*/
   max-width: 245px;
   border-radius: 8px;
   background: palegreen;
