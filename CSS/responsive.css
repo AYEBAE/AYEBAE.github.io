@@ -5,24 +5,19 @@
     max-width: 99%;
   }
 
-  #wrapper {
-    white-space: nowrap;
-    max-width: 99%;
-  }
-
   #blogImgs {
     max-width: 50%;
     margin: -5% auto;
   }
 
-  #js-button-wrap {
+  /*#js-button-wrap {
     margin: 400px auto;
     max-width: 245;
   }
 
   #js-button {
     padding: 16px;
-  }
+  }*/
 }
 
 
@@ -38,14 +33,14 @@
     display: none;
   }
 
-  #js-button-wrap {
+  /*#js-button-wrap {
     margin: 875px auto;
     max-width: 245px;
   }
 
   #js-button {
     padding: 16px;
-  }
+  }*/
 
   #blogImgs {
     margin: 0 auto;
