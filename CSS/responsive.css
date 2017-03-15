@@ -11,11 +11,8 @@
   }
 
   /*#js-button-wrap {
-    margin: 400px auto;
-    max-width: 245;
-  }
-  #js-button {
-    padding: 16px;
+    margin: 0 auto;
+    margin-top: 85%;
   }*/
 }
 
@@ -32,11 +29,12 @@
     display: none;
   }
 
-  /*#js-button-wrap {
+  #js-button-wrap {
     margin: 875px auto;
     max-width: 245px;
   }
-  #js-button {
+  
+  /*#js-button {
     padding: 16px;
   }*/
 
