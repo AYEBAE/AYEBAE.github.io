@@ -1,19 +1,30 @@
 @media screen and (min-width: 480px) {
 
   body {
-    white-space: nowrap;
-    max-width: 99%;
+    max-width: 100%;
+  }
+
+  .container{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 
   #blogImgs {
-    max-width: 50%;
-    margin: -5% auto;
+    align-self: center;
+    margin: auto;
+    margin-left: 6.95%;
+    max-width: 75%;
+    order: 2;
   }
 
-  /*#js-button-wrap {
-    margin: 0 auto;
-    margin-top: 85%;
-  }*/
+  #js-button-wrap {
+    align-self: center;
+    margin-top: auto;
+    order: 1;
+  }
 }
 
 
@@ -21,8 +32,15 @@
 @media screen and (min-width: 660px) {
 
   body {
-    white-space: nowrap;
-    max-width: 99%;
+    max-width: 100%;
+  }
+
+  .container{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 
   nav {
@@ -30,16 +48,16 @@
   }
 
   #js-button-wrap {
-    margin: 875px auto;
-    max-width: 245px;
+    align-self: center;
+    margin-top: auto;
+    order: 1;
   }
-  
-  /*#js-button {
-    padding: 16px;
-  }*/
 
   #blogImgs {
-    margin: 0 auto;
+    align-self: center;
+    margin: auto;
+    max-width: 100%;
+    order: 2;
   }
 
 

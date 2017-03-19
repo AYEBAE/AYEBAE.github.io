@@ -30,6 +30,8 @@ var images = [
   "http://68.media.tumblr.com/tumblr_mdvgryAdju1r81wceo1_500.jpg",
 ];
 
+
+
 // randomizing and diplaying image onClick funtion
 init();
 
@@ -52,6 +54,8 @@ function init() {
   random_image(images);
 }
 
+
+
 // Get the button, and when the user clicks on it, execute myFunction
 document.getElementById("myBtn").onclick = function() {myFunction();};
 
@@ -59,6 +63,8 @@ document.getElementById("myBtn").onclick = function() {myFunction();};
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
+
+
 
 // color array for changing ASCII text color
 var colorArray = [

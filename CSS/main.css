@@ -62,24 +62,25 @@ section li p {
   display: none;
 }
 
-.contents {
+.container {
+  display: flex;
   max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 
 
 /*image styling */
 #blogImgs {
-  max-width: 59%;
-  white-space: nowrap;
+  max-width: 75%;
   border: dashed 4px lime;
-  padding: 1%;
-  margin: -5px auto;
-  /*margin: 0;*/
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
+  padding: 5%;
+  align-self: center;
+  margin-left: 6.95%;
+  order: 2;
+
 }
 
 
@@ -88,8 +89,6 @@ section li p {
 #js-button-wrap {
   box-sizing: border-box;
   margin: 0 auto;
-  margin-top: 125%;
-  display: block;
   text-align: center;
   max-width: 245px;
   border-radius: 8px;
