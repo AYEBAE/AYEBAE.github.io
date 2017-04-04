@@ -29,7 +29,7 @@
 
 
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 953px) {
 
   body {
     max-width: 100%;
@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    /*flex-direction: column;*/
   }
 
   nav {
